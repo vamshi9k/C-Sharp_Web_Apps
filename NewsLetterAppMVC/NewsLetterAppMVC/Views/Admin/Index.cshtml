@@ -1,0 +1,56 @@
+﻿@using NewsLetterAppMVC.ViewModels
+@model List<SignUpVM>
+
+@{
+    ViewBag.Title = "Admin";
+}
+
+<h2>Admin</h2>
+
+<div class="row no-gutters m-3">
+    <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
+        <div class="card-header text-center">
+            <h5 class="m-0">
+                Sign Ups
+            </h5>
+        </div>
+        <div class="card-body">
+            @foreach (var signup in Model)
+            {
+                using (Html.BeginForm("Unsubscribe", "Admin", FormMethod.Post))
+                {
+                    <input type="hidden" name="Id" value="@signup.Id" />
+                    <input type="hidden" name="Removed" value="@signup.Removed" />
+                    <div class="row mb-3">
+                        <div class="col-2">
+                            @signup.FirstName
+                        </div>
+                        <div class="col-3">
+                            @signup.LastName
+                        </div>
+                        <div class="col-4">
+                            @signup.Email
+                        </div>
+                        <div class=" col-3">
+                            @*my code, might break :*@
+                            @if (signup.Removed == null)
+                            {
+                                <button type="submit" class="btn btn-danger btn-block">
+                                    UnSub
+                                </button>
+                            }
+                            else
+                            {
+                                <button type="submit" class="btn btn-primary btn-block">
+                                    ReSub
+                                </button>
+                            }
+                        </div>
+
+                    </div>
+                }
+            }
+        </div>
+    </div>
+
+</div>

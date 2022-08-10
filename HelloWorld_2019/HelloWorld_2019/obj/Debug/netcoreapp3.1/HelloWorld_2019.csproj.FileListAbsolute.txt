@@ -1,0 +1,14 @@
+C:\Users\Razer\source\repos\HelloWorld_2019\HelloWorld_2019\bin\Debug\netcoreapp3.1\HelloWorld_2019.exe
+C:\Users\Razer\source\repos\HelloWorld_2019\HelloWorld_2019\bin\Debug\netcoreapp3.1\HelloWorld_2019.deps.json
+C:\Users\Razer\source\repos\HelloWorld_2019\HelloWorld_2019\bin\Debug\netcoreapp3.1\HelloWorld_2019.runtimeconfig.json
+C:\Users\Razer\source\repos\HelloWorld_2019\HelloWorld_2019\bin\Debug\netcoreapp3.1\HelloWorld_2019.runtimeconfig.dev.json
+C:\Users\Razer\source\repos\HelloWorld_2019\HelloWorld_2019\bin\Debug\netcoreapp3.1\HelloWorld_2019.dll
+C:\Users\Razer\source\repos\HelloWorld_2019\HelloWorld_2019\bin\Debug\netcoreapp3.1\HelloWorld_2019.pdb
+C:\Users\Razer\source\repos\HelloWorld_2019\HelloWorld_2019\obj\Debug\netcoreapp3.1\HelloWorld_2019.csproj.AssemblyReference.cache
+C:\Users\Razer\source\repos\HelloWorld_2019\HelloWorld_2019\obj\Debug\netcoreapp3.1\HelloWorld_2019.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Razer\source\repos\HelloWorld_2019\HelloWorld_2019\obj\Debug\netcoreapp3.1\HelloWorld_2019.AssemblyInfoInputs.cache
+C:\Users\Razer\source\repos\HelloWorld_2019\HelloWorld_2019\obj\Debug\netcoreapp3.1\HelloWorld_2019.AssemblyInfo.cs
+C:\Users\Razer\source\repos\HelloWorld_2019\HelloWorld_2019\obj\Debug\netcoreapp3.1\HelloWorld_2019.csproj.CoreCompileInputs.cache
+C:\Users\Razer\source\repos\HelloWorld_2019\HelloWorld_2019\obj\Debug\netcoreapp3.1\HelloWorld_2019.dll
+C:\Users\Razer\source\repos\HelloWorld_2019\HelloWorld_2019\obj\Debug\netcoreapp3.1\HelloWorld_2019.pdb
+C:\Users\Razer\source\repos\HelloWorld_2019\HelloWorld_2019\obj\Debug\netcoreapp3.1\HelloWorld_2019.genruntimeconfig.cache

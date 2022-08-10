@@ -1,0 +1,40 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+
+    ViewData["ServerTime"] = DateTime.Now;
+
+//public Timer timer5mins; 
+
+//    private void FiveMin(){
+//    timer5mins= new Timer();
+//    timer5mins.Tick += new EventHandler(timer5mins_Tick);
+//    timer5mins.Interval = 1000; // 1 second
+//    timer5mins.Start(); 
+//    }
+
+//    private void timer5mins_Tick(object sender, EventArgs e)
+//    {
+
+
+//    //ViewData["ServerTime"] = DateTime.Now;
+//    ViewData["ServerTime"] = "upgradded";  
+//    //Call Webservice Method
+//    //You can either ReCALL FiveMin Function Again to never stop
+//    //Or
+//    // Use timer5mins.Stop(); 
+//    }
+
+//        FiveMin();
+
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+<div class="text-center">
+    <h2 id="ServerTime" class="display-4">Server Time : @ViewData["ServerTime"]</h2>
+</div>
