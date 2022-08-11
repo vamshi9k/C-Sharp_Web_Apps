@@ -1,6 +1,6 @@
 # C# Web Apps
 
-These are web-based applications written in C# from modified templates. Created in Visual Studio.
+These are web-based applications written in C#. Created in Visual Studio.
 
 ## Projects
 
@@ -13,7 +13,7 @@ An MVC (Model View Controller) web application that mimics a car insurance websi
 A simple Newsletter Signup Web-based application. Collects all signups in a database file, and reads them to an Admin Controller. Utilizes database with Entity FrameWork wrapper.
 
 ```bash
-<html>
-  <p>Hello Universe!</p>
-</html>
+@{ //Razer Syntax in .CSHTML
+    ViewBag.Title = "Hello Universe";
+}
 ```
